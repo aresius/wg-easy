@@ -38,6 +38,11 @@ RUN apk add -U --no-cache \
   wireguard-tools \
   dumb-init
 
+# switch to nftables
+RUN ln -sf xtables-nft-multi /sbin/iptables
+RUN ln -sf xtables-nft-multi /sbin/iptables-save
+RUN ln -sf xtables-nft-multi /sbin/iptables-restore
+
 # Expose Ports
 EXPOSE 51820/udp
 EXPOSE 51821/tcp
