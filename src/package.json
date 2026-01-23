@@ -16,7 +16,7 @@
     "bcryptjs": "^3.0.3",
     "debug": "^4.4.3",
     "express": "^5.2.1",
-    "express-session": "^1.18.2",
+    "express-session": "^1.19.0",
     "qrcode": "^1.5.4",
     "uuid": "^13.0.0"
   },
