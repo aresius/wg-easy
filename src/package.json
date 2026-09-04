@@ -21,7 +21,7 @@
     "uuid": "^14.0.2"
   },
   "devDependencies": {
-    "eslint-config-athom": "^4.0.1",
+    "eslint-config-athom": "^4.0.2",
     "tailwindcss": "^4.3.3"
   },
   "nodemonConfig": {
